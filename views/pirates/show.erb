@@ -1,7 +1,7 @@
 <h1>Display your Pirate here</h1>
-<p><%= @pirate = params[pirate][name] %></p>
-<p><%= @weight = params[pirate][height] %></p>
-<p><%= @height = params[pirate][weight] %></p>
+<p><%= @pirate = pirate.name %></p>
+<p><%= @weight = pirate.height %></p>
+<p><%= @height = pirate.weight %></p>
 
 <h2>Display your first ship here</h2>
 <p><%= @ship = params[ships][][name] %></p>
