@@ -26,7 +26,7 @@ module FormsLab
 
      @ships = Ship.all
      @ship1 = @ships.first
-     @ship2 = @ships.last 
+     @ship2 = @ships.last
 
      erb :'pirates/show'
    end
