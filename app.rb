@@ -25,6 +25,8 @@ module FormsLab
      @pirate = Pirate.new(params["pirate"]["name"], params["pirate"]["height"], params["pirate"]["weight"])
 
      @ships = Ship.all
+     @ship1 = @ships.first
+     @ship2 = @ships.last 
 
      erb :'pirates/show'
    end
